@@ -1,0 +1,16 @@
+
+<html decorator="blank" title="Hello Apple">
+<head>
+    <script>
+        function refresh(){
+            setTimeout(doRefresh, 300);
+        }
+
+        function doRefresh(){
+            document.location.reload();
+        }
+    </script>
+</head>
+<body>
+<button type="button" id="refresh" onclick="refresh()">Refresh</button>
+</html>
